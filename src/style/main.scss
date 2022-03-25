@@ -1,0 +1,11 @@
+$white: #fff;
+@font-face {
+    font-family: "Neonderthaw";
+    src: url(../fonts/Neonderthaw-Regular.woff);
+   }
+
+   body{
+       background-color: green;
+       color:$white;
+       padding: 10% 20%;
+   }

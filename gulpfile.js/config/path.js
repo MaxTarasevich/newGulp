@@ -9,13 +9,9 @@ module.exports = {
         watch:pathSrc + '/pages/**/*.pug',
         dest:pathDest
     },
-    css:{
-        src:pathSrc + '/style/*.css',
-        watch:pathSrc + '/style/*.css',
-        dest:pathDest + '/css'
-    },
-    postcss:{
-        src:pathSrc + '/style/*.css',
+    scss:{
+        src:pathSrc + '/style/*.{sass,scss}',
+        watch:pathSrc + '/style/*.{sass,scss}',
         dest:pathDest + '/css'
     },
     js:{
